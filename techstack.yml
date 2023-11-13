@@ -1,0 +1,573 @@
+repo_name: ccamel/github-profilinator
+report_id: fbeb9cd7e3e24bd0c4d485525ae0d1f3
+repo_type: Public
+timestamp: '2023-11-13T07:04:39+00:00'
+requested_by: kairavkkp
+provider: github
+branch: master
+detected_tools_count: 40
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source: Repo Metadata
+- name: Ant Design
+  description: A set of high-quality React components
+  website_url: https://ant.design
+  version: 4.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/6112/12101536.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Rishav Anand
+  last_updated_on: 2020-08-01 15:47:25.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source: package.json
+  last_updated_by: Rishav Anand
+  last_updated_on: 2020-08-01 15:47:25.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: rishavanand
+  last_updated_on: 2021-03-06 11:06:56.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source: package.json
+  last_updated_by: Rishav Anand
+  last_updated_on: 2020-08-01 15:47:25.000000000 Z
+- name: styled-components
+  description: Visual primitives for the component age. Use the best bits of ES6 and
+    CSS to style your apps without stress.
+  website_url: https://styled-components.com
+  version: 5.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/6749/styled-components.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Rishav Anand
+  last_updated_on: 2020-08-01 15:47:25.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source: package.json
+  last_updated_by: Rishav Anand
+  last_updated_on: 2020-08-01 15:47:25.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/main.yml"
+  last_updated_by: Rishav Anand
+  last_updated_on: 2020-08-11 12:28:17.000000000 Z
+- name: Prettier
+  description: 'Prettier is an opinionated code formatter. '
+  website_url: https://prettier.io/
+  version: 2.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Rishav Anand
+  last_updated_on: 2020-08-01 15:47:25.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: Rishav Anand
+  last_updated_on: 2020-08-01 15:47:25.000000000 Z
+- name: Google Analytics
+  description: Enterprise-class web analytics.
+  website_url: http://www.google.com/analytics
+  open_source: false
+  hosted_saas: false
+  category: Analytics
+  sub_category: General Analytics
+  image_url: https://img.stackshare.io/service/64/cU74ahCn_400x400.jpg
+  detection_source: package.json
+  last_updated_by: Rishav Anand
+  last_updated_on: 2020-08-05 09:17:40.000000000 Z
+- name: Font Awesome
+  description: The internet's most popular icon toolkit
+  website_url: https://fontawesome.com/
+  version: 5.14.0
+  open_source: true
+  hosted_saas: false
+  category: Design
+  sub_category: Fonts
+  image_url: https://img.stackshare.io/service/3244/1_Mr1Fy00XjPGNf1Kkp_hWtw_2x.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Kairav Pithadia
+  last_updated_on: 2020-08-12 08:39:22.000000000 Z
+- name: Gatsby
+  description: Free, open source framework for building blazing fast websites and
+    apps with React
+  website_url: https://www.gatsbyjs.org
+  version: 2.24.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Static Site Generators
+  image_url: https://img.stackshare.io/service/5472/default_189db484e0770a6101c6a70f0ef0172bc0f8de37.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: rishavanand
+  last_updated_on: 2021-03-06 10:43:14.000000000 Z
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source: package.json
+  last_updated_by: Rishav Anand
+  last_updated_on: 2020-08-01 15:47:25.000000000 Z
+- name: "@fortawesome/fontawesome-free"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/fontawesome-free
+  version: 5.14.0
+  license: CC-BY-4.0,OFL-1.1,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17170/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Kairav Pithadia
+  last_updated_on: 2020-08-12 08:39:22.000000000 Z
+- name: "@fortawesome/fontawesome-svg-core"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/fontawesome-svg-core
+  version: 1.2.30
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16644/default_50c9ed1615a25628505ab53def64d82450ced26b.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Kairav Pithadia
+  last_updated_on: 2020-08-12 08:39:22.000000000 Z
+- name: "@fortawesome/free-brands-svg-icons"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/free-brands-svg-icons
+  version: 5.14.0
+  license: CC-BY-4.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18314/default_8c7316b1ad57adb78204233fc4608152c3b49ac6.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Kairav Pithadia
+  last_updated_on: 2020-08-12 08:39:22.000000000 Z
+- name: "@fortawesome/free-solid-svg-icons"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/free-solid-svg-icons
+  version: 5.14.0
+  license: CC-BY-4.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16683/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Kairav Pithadia
+  last_updated_on: 2020-08-12 08:39:22.000000000 Z
+- name: "@fortawesome/react-fontawesome"
+  description: Official React component for Font Awesome 5
+  package_url: https://www.npmjs.com/@fortawesome/react-fontawesome
+  version: 0.1.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16936/default_277303773c2bdb575ee8f4bfe869f0a33d6755b2.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: rishavanand
+  last_updated_on: 2021-03-06 11:06:56.000000000 Z
+- name: "@types/marked"
+  description: TypeScript definitions for Marked
+  package_url: https://www.npmjs.com/@types/marked
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17650/default_894a45ad01fa93ac472db719cb1ef1b89f2924f0.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-24 11:40:55.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 3.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: rishavanand
+  last_updated_on: 2021-03-06 10:43:14.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 3.7.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Kairav Pithadia
+  last_updated_on: 2020-08-12 08:39:22.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 6.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: rishavanand
+  last_updated_on: 2021-03-06 11:06:56.000000000 Z
+- name: eslint-plugin-prettier
+  description: Runs prettier as an eslint rule
+  package_url: https://www.npmjs.com/eslint-plugin-prettier
+  version: 3.1.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: rishavanand
+  last_updated_on: 2021-03-06 10:43:14.000000000 Z
+- name: gatsby-image
+  description: Lazy-loading React image component with optional support for the blur-up
+    effect
+  package_url: https://www.npmjs.com/gatsby-image
+  version: 2.4.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18081/image.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: rishavanand
+  last_updated_on: 2021-03-06 10:43:14.000000000 Z
+- name: gatsby-plugin-react-helmet
+  description: Manage document head data with react-helmet
+  package_url: https://www.npmjs.com/gatsby-plugin-react-helmet
+  version: 3.3.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17532/default_8d32936cb624bf7f51657c1540463db0a3c4106e.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: rishavanand
+  last_updated_on: 2021-03-06 11:06:56.000000000 Z
+- name: gatsby-plugin-sharp
+  description: Wrapper of the Sharp image manipulation library for Gatsby plugins
+  package_url: https://www.npmjs.com/gatsby-plugin-sharp
+  version: 2.6.24
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17786/default_a53af9d6b5a4c8c6e8d5f8494d76a8d2efd3e660.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: rishavanand
+  last_updated_on: 2021-03-06 10:43:14.000000000 Z
+  vulnerabilities:
+  - name: Path traversal vulnerability in gatsby-plugin-sharp
+    cve_id: CVE-2023-30548
+    cve_url: https://github.com/advisories/GHSA-h2pm-378c-pcxx
+    detected_date: Apr 21
+    severity: moderate
+    first_patched: 4.25.1
+- name: gatsby-source-filesystem
+  description: Gatsby plugin which parses files within a directory for further parsing
+    by other plugins
+  package_url: https://www.npmjs.com/gatsby-source-filesystem
+  version: 2.3.23
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17100/default_1dbf402c11ef653fcaedc84e608a244e30ebfb87.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: rishavanand
+  last_updated_on: 2021-03-06 10:43:14.000000000 Z
+- name: gatsby-transformer-remark
+  description: Gatsby transformer plugin for Markdown using the Remark library and
+    ecosystem
+  package_url: https://www.npmjs.com/gatsby-transformer-remark
+  version: 2.8.27
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18647/default_3eb5180fb08eb9c684c6269a642bfab3a16bcf1d.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: rishavanand
+  last_updated_on: 2021-03-06 10:43:14.000000000 Z
+  vulnerabilities:
+  - name: gatsby-transformer-remark has possible unsanitized JavaScript code injection
+    cve_id: CVE-2023-22491
+    cve_url: https://github.com/advisories/GHSA-7ch4-rr99-cqcw
+    detected_date: Jan 12
+    severity: high
+    first_patched: 5.25.1
+- name: gatsby-transformer-sharp
+  description: Gatsby transformer plugin for images using Sharp
+  package_url: https://www.npmjs.com/gatsby-transformer-sharp
+  version: 2.5.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18094/image.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: rishavanand
+  last_updated_on: 2021-03-06 10:43:14.000000000 Z
+- name: marked
+  description: A markdown parser built for speed
+  package_url: https://www.npmjs.com/marked
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16065/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-24 11:40:55.000000000 Z
+  vulnerabilities:
+  - name: Inefficient Regular Expression Complexity in marked
+    cve_id: CVE-2022-21680
+    cve_url: https://github.com/advisories/GHSA-rrrm-qjm4-v8hf
+    detected_date: Jan 15
+    severity: high
+    first_patched: 4.0.10
+  - name: Inefficient Regular Expression Complexity in marked
+    cve_id: CVE-2022-21681
+    cve_url: https://github.com/advisories/GHSA-5v2h-r2cx-5xgj
+    detected_date: Jan 15
+    severity: high
+    first_patched: 4.0.10
+- name: node-sass
+  description: Wrapper around libsass
+  package_url: https://www.npmjs.com/node-sass
+  version: 4.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15827/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Kairav Pithadia
+  last_updated_on: 2020-08-12 08:39:22.000000000 Z
+  vulnerabilities:
+  - name: Improper Certificate Validation in node-sass
+    cve_id: CVE-2020-24025
+    cve_url: https://github.com/advisories/GHSA-r8f7-9pfq-mjmv
+    detected_date: Feb 10
+    severity: moderate
+    first_patched: 7.0.0
+- name: prop-types
+  description: Runtime type checking for React props and similar objects
+  package_url: https://www.npmjs.com/prop-types
+  version: 15.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15843/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Kairav Pithadia
+  last_updated_on: 2020-08-12 08:39:22.000000000 Z
+- name: react-copy-to-clipboard
+  description: Copy-to-clipboard React component
+  package_url: https://www.npmjs.com/react-copy-to-clipboard
+  version: 5.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17254/default_9aa9c9d4e491c9d2d70df74bfa33cf525babb7f5.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: rishavanand
+  last_updated_on: 2021-03-06 11:06:56.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 16.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: rishavanand
+  last_updated_on: 2021-03-06 11:06:56.000000000 Z
+- name: react-helmet
+  description: A document head manager for React
+  package_url: https://www.npmjs.com/react-helmet
+  version: 6.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16513/default_4e3259350c525d1d859fa80a938000081d7c9db8.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: rishavanand
+  last_updated_on: 2021-03-06 11:06:56.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 8.10.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Kairav Pithadia
+  last_updated_on: 2020-08-12 08:39:22.000000000 Z
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 3.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Rishav Anand
+  last_updated_on: 2020-08-01 15:47:25.000000000 Z
